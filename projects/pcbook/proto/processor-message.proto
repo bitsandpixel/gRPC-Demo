@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+message Cpu {
+    /*Brand of the CPU*/
+    String brand = 1;
+    /*Name of the CPU*/
+    String name = 2;
+    unint32 number_cores =3;
+    unint32 number_threads =4;
+    double min_ghz = 5;
+    double max_ghz = 6;
+
+}
